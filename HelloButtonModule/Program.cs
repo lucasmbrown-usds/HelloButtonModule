@@ -36,6 +36,18 @@ namespace HelloButtonModule
 
             // Use Debug.Print to show messages in Visual Studio's "Output" window during debugging.
             Debug.Print("Program Started");
+            button.ButtonPressed += button_ButtonPressed;
+            button.ButtonReleased += button_ButtonReleased;
+        }
+
+        void button_ButtonReleased(Button sender, Button.ButtonState state)
+        {
+            button.TurnLEDOff();
+        }
+
+        void button_ButtonPressed(Button sender, Button.ButtonState state)
+        {
+            button.TurnLEDOn();
         }
     }
 }
