@@ -19,7 +19,7 @@ Here is a picture of the hardware setup. ![picture of the hardware setup](HelloB
 The result
 ----------
 
-The viewable result of the running the code is that the green led light on the main board blinks (it switches from on to off or vice versa) every half second.
+The viewable result of running the code is that the green led light on the button module turns on when the button is pressed (and turns of when the button is released).
 
 I have added a [video of the result](http://youtu.be/Zw9b0Mj0qXM) to youtube.
 
